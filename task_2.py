@@ -12,7 +12,6 @@ def rod_cutting_memo(length: int, prices: List[int]) -> Dict:
         Dict з максимальним прибутком та списком розрізів
     """
     
-	# Тут повинен бути ваш код
     memo = {}
 
     def dp(n):
@@ -59,7 +58,6 @@ def rod_cutting_table(length: int, prices: List[int]) -> Dict:
         Dict з максимальним прибутком та списком розрізів
     """
     
-    # Тут повинен бути ваш код
     dp = [0] * (length + 1)
 
     for i in range(1, length + 1):
